@@ -36,13 +36,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this,SuccessActivity.class));
                 finish();
             }
-        }catch (Exception e){
+        }
+        catch (Exception e){
            //Toast.makeText(getApplicationContext(),e.getMessage()+" 1",Toast.LENGTH_LONG).show();
         }
 
 
     }
-
 
 
     public void loginuser() {
@@ -58,12 +58,14 @@ public class MainActivity extends AppCompatActivity {
                 preferenceConfig.writeLoginStatus(true);
                 finish();
 
-            }else{
+            }
+            else{
                 Toast.makeText(getApplicationContext(),"Login Failed",Toast.LENGTH_SHORT).show();
                 email.setText("");
                 password.setText("");
             }
-        }catch (Exception e){
+        }
+        catch(Exception e){
             //Toast.makeText(getApplicationContext(),e+" 2",Toast.LENGTH_LONG).show();
         }
 
