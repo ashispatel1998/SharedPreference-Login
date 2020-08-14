@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SharedPreferencesExample</string>
+
+    <string name="user_name">ashispatel1998@gmail.com</string>
+    <string name="user_password">ashis3888</string>
+
+    <string name="login_preference">com.example.sharedpreferencesexample_login_preference</string>
+    <string name="login_status_preference">com.example.sharedpreferencesexample_login_status_preference</string>
+
+</resources>
